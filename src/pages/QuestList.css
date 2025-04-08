@@ -1,0 +1,14 @@
+.quest-row {
+  transition: all 0.2s ease-in-out;
+}
+.quest-row:hover {
+  background-color: #f3f4f6;
+}
+.task-list {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+.task-list.open {
+  max-height: 500px;
+}

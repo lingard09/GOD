@@ -1,0 +1,26 @@
+.bg-image {
+  background-image: url('../assets/roadview.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.nav-link {
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link.active {
+  color: #4F46E5;
+  font-weight: 600;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
